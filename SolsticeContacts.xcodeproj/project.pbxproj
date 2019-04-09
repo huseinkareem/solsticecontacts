@@ -14,6 +14,7 @@
 		50237CA4225D28AA008B3A62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50237CA2225D28AA008B3A62 /* LaunchScreen.storyboard */; };
 		50237CAF225D28AB008B3A62 /* SolsticeContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50237CAE225D28AB008B3A62 /* SolsticeContactsTests.swift */; };
 		50237CBA225D28AB008B3A62 /* SolsticeContactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50237CB9225D28AB008B3A62 /* SolsticeContactsUITests.swift */; };
+		50237CCA225D291F008B3A62 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50237CC9225D291F008B3A62 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		50237CB5225D28AB008B3A62 /* SolsticeContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolsticeContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50237CB9225D28AB008B3A62 /* SolsticeContactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolsticeContactsUITests.swift; sourceTree = "<group>"; };
 		50237CBB225D28AB008B3A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50237CC9225D291F008B3A62 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,8 @@
 		50237C98225D28AA008B3A62 /* SolsticeContacts */ = {
 			isa = PBXGroup;
 			children = (
+				50237CC8225D2908008B3A62 /* Models */,
+				50237CC7225D2901008B3A62 /* Networking */,
 				50237C99225D28AA008B3A62 /* AppDelegate.swift */,
 				50237C9B225D28AA008B3A62 /* ViewController.swift */,
 				50237C9D225D28AA008B3A62 /* Main.storyboard */,
@@ -123,6 +127,21 @@
 				50237CBB225D28AB008B3A62 /* Info.plist */,
 			);
 			path = SolsticeContactsUITests;
+			sourceTree = "<group>";
+		};
+		50237CC7225D2901008B3A62 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		50237CC8225D2908008B3A62 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				50237CC9225D291F008B3A62 /* Contact.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50237CCA225D291F008B3A62 /* Contact.swift in Sources */,
 				50237C9C225D28AA008B3A62 /* ViewController.swift in Sources */,
 				50237C9A225D28AA008B3A62 /* AppDelegate.swift in Sources */,
 			);
